@@ -5,7 +5,7 @@ export default {
     '@shared/(.*)': '<rootDir>/src/app/domains/shared/$1',
     '@products/(.*)': '<rootDir>/src/app/domains/products/$1',
     '@info/(.*)': '<rootDir>/src/environments/$1',
-    '@env/(.*)': '<rootDir>/src/environments/$1'
+    '@env/(.*)': '<rootDir>/src/environments/$1',
   },
   coverageDirectory: './coverage',
   collectCoverageFrom: [
